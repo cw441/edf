@@ -1,0 +1,37 @@
+[
+  {
+    "id": 3,
+    "attributes": {
+      "name": "sdfdf",
+      "title": "sddddddddddddddddddddsddsdxzcxc",
+      "num": 32,
+      "image": {
+        "data": [
+          {
+            "id": 2,
+            "attributes": {
+              "name": "photo_2022-06-25_13-36-37.jpg",
+
+              "formats": {
+                "large": {
+                  "url": "/uploads/large_photo_2022_06_25_13_36_37_af16b27003.jpg"
+                },
+                "small": {
+                  "url": "/uploads/small_photo_2022_06_25_13_36_37_af16b27003.jpg"
+                },
+                "medium": {
+                  "url": "/uploads/medium_photo_2022_06_25_13_36_37_af16b27003.jpg"
+                },
+                "thumbnail": {
+                  "url": "/uploads/thumbnail_photo_2022_06_25_13_36_37_af16b27003.jpg"
+                }
+              },
+
+              "url": "/uploads/photo_2022_06_25_13_36_37_af16b27003.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+]
