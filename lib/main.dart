@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/screen/homePage.dart';
-import 'package:untitled/screen1.dart';
+import 'package:untitled/screen/home.dart';
+import 'package:untitled/widgets/gridview_item.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +11,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.redAccent,
+        appBarTheme: AppBarTheme(
+          elevation: 0.0,
+          backgroundColor: Colors.white,
+          iconTheme: IconThemeData(color: Colors.red),
+          titleTextStyle: TextStyle(
+            fontSize: Theme.of(context).textTheme.titleLarge!.fontSize,
+            fontWeight: Theme.of(context).textTheme.titleLarge!.fontWeight,
+            color: Colors.redAccent,
+          ),
+        ),
+      ),
+      initialRoute: '/home',
       routes: {
-        HomePage.id : (context) => HomePage()
+        '/home': (context) => HomePage(),
+        // place another page here
       },
-      initialRoute: HomePage.id,
     );
   }
 }
-
